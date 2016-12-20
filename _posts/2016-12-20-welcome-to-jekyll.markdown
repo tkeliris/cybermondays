@@ -10,4 +10,4 @@ So... The idea I have in mind goes like this: Every Monday at 4pm, we get togeth
 
 Tasos
 
-<center><iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></center>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
