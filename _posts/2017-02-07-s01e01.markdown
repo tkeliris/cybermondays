@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "s01e01 - Pwned By The Owner"
+date:   2017-02-07
+---
+
+In the [Pilot]({% post_url 2016-12-20-Pilot %}) post I introduced the concept of CyberMondays for NYUAD. Now it's time to make it a reality. I feel it is appropriate that the first video is by good-ol-fashioned Zoz. For Monday Feb. 13, 2017 we'll watch a DEFCON video and see what happens when you steal a hacker's computer (funny things happen)!
+
+Disclaimer: The security community can be a bit weird and vulgar at times, but hey don't shoot the messenger!
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=Jwpg-AwJ0Jc){:target="_blank"}
+
+`Tasos`

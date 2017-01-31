@@ -7,34 +7,8 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            <li>Organized by <a href="https://sites.google.com/a/nyu.edu/keliris/">Tasos Keliris</a></li>
-            <li>PhD Candidate with <a href="https://nyuad.nyu.edu/momalab">MoMA Lab</a></li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+          <li>Organized by <a href="https://sites.google.com/a/nyu.edu/keliris/">Tasos Keliris</a></li>
+          <li>PhD Candidate with <a href="https://nyuad.nyu.edu/momalab">MoMA Lab</a></li>
         </ul>
       </div>
 

@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "s01e00 - Pilot"
+date:   2016-12-20
+---
+
+It's been a while that I've been entertaining the idea of establishing an event for the cyber security folks here at NYU Abu Dhabi. So... The idea goes more or less like this: Every (Cyber)Monday at 5pm, we get together in the Twinlab conference room (comfy couches) and watch a video presentation from a top security conference (DEFCON, BlackHat, CCS,  etc.) and then chat about it. Couches, popcorn, hacks, what more can you ask?
+
+If you liked what you read subscribe to the RSS feed or bookmark this page and be on the lookout for another post!
+
+[Homework](https://www.youtube.com/watch?v=8qnQz8kxte0){:target="_blank"}
+
+`Tasos`
