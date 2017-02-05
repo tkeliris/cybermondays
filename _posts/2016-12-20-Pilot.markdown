@@ -4,7 +4,7 @@ title:  "s01e00 - Pilot"
 date:   2016-12-20
 ---
 
-It's been a while that I've been entertaining the idea of establishing an event for the cyber security folks here at NYU Abu Dhabi. So... The idea goes more or less like this: Every (Cyber)Monday at 5pm, we get together in the Twinlab conference room (comfy couches) and watch a video presentation from a top security conference (DEFCON, BlackHat, CCS,  etc.) and then chat about it. Couches, popcorn, hacks, what more can you ask?
+It's been a while that I've been entertaining the idea of establishing an event for the cyber security folks here at NYU Abu Dhabi. So... The idea goes more or less like this: Every (Cyber)Monday we get together in the Twinlab conference room (comfy couches) and watch a video presentation from a top security conference (DEFCON, BlackHat, CCS,  etc.) and then chat about it! I'm not yet sure about the time to do this, I was thinking it could be over lunch (12:15-13:15) or in the afternoon (17:00-18:00). I would love your feedback on it!
 
 If you liked what you read subscribe to the RSS feed or bookmark this page and be on the lookout for another post!
 
