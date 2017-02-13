@@ -10,8 +10,7 @@ Drone Attacks on Industrial Wireless: A New Front in Cyber Security
 With new Drone technologies appearing in the consumer space daily, Industrial Plant operators are being forced to rethink their most fundamental assumptions about Industrial Wireless and Cyber-Physical security. This presentation will cover Electronic Threats, Electronic Defensive measures, Recent Electronic jamming incidents, Latest Drone Threats and capabilities, defensive planning, and Electronic Attack Threats with Drones as delivery platform.
 
 **Speaker**: 
-Jeff Melrose
-Principal Technology Strategist for Cybersecurity at Yokogawa
+Jeff Melrose, Principal Technology Strategist for Cybersecurity at Yokogawa
 
 [YouTube link to presentation](https://www.youtube.com/watch?v=2URDrYNjKsY&index=43&list=PLXI5ri9BGtlEvefDwtuAsFclKW_wVAlNs){:target="_blank"}
 
