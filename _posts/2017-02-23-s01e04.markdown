@@ -6,7 +6,9 @@ date:   2017-02-23
 
 Hacking Smart Safes - On the Brink of a Robbery
 
-**Abstract**: 
+**Abstract**:
+
+
 Have you ever wanted to crack open a safe full of cash with nothing but a USB stick? Now you can!
 
 
@@ -18,8 +20,10 @@ During this talk, we’ll uncover a major flaw in the Brink’s CompuSafe and de
 
 At any given time, up to $240,000 can be sitting in each of the 14,000 Brink’s CompuSafe smart safes currently deployed across the United States - potentially billions of dollars just waiting to be stolen.
 
-**Presentation by**: 
-Dan “AltF4” Petro Security Associate at Bishop Fox, and Oscar Salazar, Senior Security Associate at Bishop Fox
+**Presentation by**:
+
+
+Dan “AltF4” Petro Security and Oscar Salazar, Bishop Fox
 
 [YouTube link to presentation](https://www.youtube.com/watch?v=z8yCiYCNVQQ){:target="_blank"}
 
