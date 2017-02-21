@@ -12,7 +12,7 @@ With new Drone technologies appearing in the consumer space daily, Industrial Pl
 **Presentation by**: 
 Jeff Melrose, Principal Technology Strategist for Cybersecurity at Yokogawa
 
-[YouTube link to presentation](https://www.youtube.com/watch?v=2URDrYNjKsY&index=43&list=PLXI5ri9BGtlEvefDwtuAsFclKW_wVAlNs){:target="_blank"}
+[YouTube link to presentation](https://www.youtube.com/watch?v=2URDrYNjKsY){:target="_blank"}
 
 [Homework](https://www.youtube.com/watch?v=u8qgehH3kEQ){:target="_blank"}
 

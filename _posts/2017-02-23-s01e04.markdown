@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "s01e04 - Hacking Smart Safes"
+date:   2017-02-23
+---
+
+Hacking Smart Safes - On the Brink of a Robbery
+
+**Abstract**: 
+Have you ever wanted to crack open a safe full of cash with nothing but a USB stick? Now you can!
+
+
+The Brink’s CompuSafe cash management product line provides a “smart safe as a service” solution to major retailers and fast food franchises. They offer end-to-end management of your cash, transporting it safely from your storefront safe to your bank via armored car.
+
+
+During this talk, we’ll uncover a major flaw in the Brink’s CompuSafe and demonstrate how to crack one open in seconds flat. All you need is a USB stick and a large bag to hold all of the cash. We’ll discuss how to remotely takeover the safe with full administrator privileges, and show how to enumerate a target list of other major Brink’s CompuSafe customers (exposed via configuration files stored right on the safe).
+
+
+At any given time, up to $240,000 can be sitting in each of the 14,000 Brink’s CompuSafe smart safes currently deployed across the United States - potentially billions of dollars just waiting to be stolen.
+
+**Presentation by**: 
+Dan “AltF4” Petro Security Associate at Bishop Fox, and Oscar Salazar, Senior Security Associate at Bishop Fox
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=z8yCiYCNVQQ){:target="_blank"}
+
+
+air date: Feb 27, 2017
+
+`Tasos`
