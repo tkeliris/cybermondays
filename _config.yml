@@ -27,7 +27,11 @@ url: "https://tkeliris.github.io" # the base hostname & protocol for your site, 
 markdown: kramdown
 theme: minima
 gems:
+  - jekyll-seo-tag
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Google services
+google_analytics: UA-41615887-3
