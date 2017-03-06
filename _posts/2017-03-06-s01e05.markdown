@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "s01e05 - The Internet of Scary Things"
+date:   2017-03-06
+---
+
+The Internet of Scary Things - Tips to deploy and manage IoT safely
+
+**Abstract**:
+
+
+IoT has been in the news for the wrong reasons, with poorly designed and managed IoT devices being blamed for contribiting to denial of service attacks.
+
+This presentation covers:
+
+* Risks to your own business from IoT takeup and how to avoid them
+* How to be a good citizen by ensuring your devices are not a risk to others
+* How to run your own IoT control and monitoring hub in the cloud, and to coerce incompatible devices into working together.
+* Points to consider when selecting IoT products
+
+IoT is immature - many devices are not as secure as they could be.
+I cover how to structure your network in order to reduce the attack surface presented by your devices.
+
+IoT is faceless, many devices are unobtrusive and you may not notice if they "go rogue". I offer advice on how to establish a management regime to limit the damage a misbehaving device can do.
+
+IoT is fragmented, everyone is scrabbling to be the market leader, so many products do not work well together. This means each device may want to talk to its own cloud service. I cover how to bridge uncooperative products to narrow or eliminate need for direct internet access, and offer advice on strategies to build a cooperating whole.
+
+
+**Presentation by**:
+
+
+Christopher Biggs. Christopher has been into Unix since 1990 and was there at the birth of 386BSD and Linux. He was founding vice president of HUMBUG, the Brisbane open systems user group, and was head of development at a multinational online retailer, stewarding development culture and toolset, and convening a series of lectures and workshops for developers there.
+
+In his spare time he builds and blogs robots, and adds to the Internet of Things.
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=qKJz4aPubNI){:target="_blank"}
+
+
+air date: Mar 06, 2017
+
+`Tasos`
