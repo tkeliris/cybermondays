@@ -39,3 +39,5 @@ In his spare time he builds and blogs robots, and adds to the Internet of Things
 air date: Mar 06, 2017
 
 `Tasos`
+
+UPDATE: [Link to Mirai botnet attribution project](https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/){:target="_blank"}

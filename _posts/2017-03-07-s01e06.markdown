@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "s01e06 - Cryptocurrencies and Beyond"
+date:   2017-03-07
+---
+
+Cryptocurrencies and Beyond
+
+**Abstract**:
+
+“Cryptocurrencies” refer to techniques for purely digital currencies. The most famous of these is Bitcoin, but since its creation numerous other currencies have also been created, relying on the underlying Distributed Ledger Technology to create a publicly verifiable list of transactions: the blockchain. There is considerable interest from the data science community, the financial sector and government in other applications of this technology, and other instantiations of cryptocurrencies that may offer different levels of anonymity, untraceability and verifiability. In this talk IOHK's chief scientist Aggelos Kiayias presents [“Secure Decentralized Blockchains without Proofs of Work”](https://eprint.iacr.org/2016/889.pdf){:target="_blank"} at the Alan Turning Institute in London.
+
+
+**Presentation by**:
+[Aggelos Kiayias](http://www.kiayias.com/Aggelos_Kiayias/Home_of_Aggelos_Kiayias.html){:target="_blank"}, Chief scientist IOHK.
+
+
+Professor Aggelos Kiayias is chair in Cyber Security and Privacy at the University of Edinburgh. His research interests are in computer security, information security, applied cryptography and foundations of cryptography with a particular emphasis in blockchain technologies and distributed systems, e-voting and secure multiparty protocols as well as privacy and identity management.
+
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=whdUSchadEs){:target="_blank"}
+
+
+air date: Mar 13, 2017
+
+`Tasos`
