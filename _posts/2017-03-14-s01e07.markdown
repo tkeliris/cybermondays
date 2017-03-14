@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "s01e06 - Breaking BHAD"
-date:   2017-14-07
+title:  "s01e07 - Breaking BHAD"
+date:   2017-03-14
 ---
 
 Breaking BHAD: Abusing Belkin Home Automation Devices
