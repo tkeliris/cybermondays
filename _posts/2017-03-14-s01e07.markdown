@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "s01e06 - Breaking BHAD"
+date:   2017-14-07
+---
+
+Breaking BHAD: Abusing Belkin Home Automation Devices
+
+**Abstract**:
+
+In 2013 and 2014 several high profile vulnerabilities were found in Belkin's WeMo line of home automation devices. Belkin not only patched most of those vulnerabilities, but also maintains a very regular update cycle, which makes them one of the more responsive players in the IoT space. Therefore, we thought it would be interesting to revisit this line of IoT products to see how we could break or abuse them. What we found are multiple vulnerabilities in both the device and the Android app that can be used to obtain a root shell on the device, run arbitrary code on the phone paired with the device, deny service to the device, and launch DoS attacks without rooting the device.
+
+
+The talk will walk through the details of heap overflow, SQL injection, and code injection zero days, as well as their associated exploits. We will also introduces a new technique for achieving code execution via SQL injection into a SQLite database on an embedded device. The talk will conclude with demonstrations of rooting a WeMo device and injecting code into the WeMo Android app from a WeMo device. That's right, we will show you how to make your IoT hack your phone.
+
+**Presentation by**:
+Scott Tenaglia and Joe Tanen, Invincea Labs
+
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=f7z56SVUjP0){:target="_blank"}
+
+
+air date: Mar 20, 2017
+
+`Tasos`
