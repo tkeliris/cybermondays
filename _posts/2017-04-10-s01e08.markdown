@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "s01e08 - ARMageddon"
+date:   2017-04-10
+---
+
+ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy
+
+**Abstract**:
+
+In the last years, mobile devices and smartphones have become the most important personal computing platform. Besides phone calls and managing the personal address book, they are also used to approve bank transfers and digitally sign official documents, thus storing very sensitive secrets. Their exposure or misappropriation would not only be a fatal infringement of privacy, but could also lead to disastrous consequences in terms of financial security and identity theft. So what if it is possible to silently monitor and track what the user is doing on his smartphone or recovering encryption keys without any permissions or privileges?
+
+In this talk, we will show that all of this is possible by mounting cache side-channel attacks on ARM that have been believed to work solely on x86 architecture. We will discuss how we overcame the challenges to perform such attacks on smartphones and demonstrate their immense attack potential. We prepared a live demo to show an unprivileged app that records the exact timestamps of user input activity. We will also present how two apps on a system can communicate with each other, circumventing the permission system and show how we can attack Bouncy Castles AES implementation. We will release source code that allows the user to perform platform-independent attacks within minutes. It serves as a starting point for research on cache side-channel attacks on smartphones and a foundation to build more sophisticated attacks.
+
+**Presentation by**:
+Moritz Lipp & Clémentine Maurice
+
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=9KsnFWejpQg){:target="_blank"}
+
+
+air date: Apr 10, 2017
+
+`Tasos`
