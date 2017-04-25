@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "s01e10 - Why we are not building a defendable internet"
+date:   2017-25-04
+---
+
+Black Hat Asia 2017 Keynote: Why We are Not Building a Defendable Internet
+
+**Abstract**:
+
+In IT security, offensive problems are technical - but most defensive problems are political and organisational. Attackers have the luxury to focus only on the technical aspects of their work, while defenders have to navigate complex political and regulatory environments. In a previous talk ("Rearchitecting a defendable internet") I discussed what technical measures would yield defendable devices - and intentionally omitted the political and economics side. This talk, on the other hand, will explore the economics and incentive structures in IT security: Who is incentivized by who to do what - and how these incentives fail to produce the security level we desire.
+
+The talk will look at different players in IT security: CISOs, security product vendors, computer manufacturers, cyber insurances - and examine their economic incentive structures, their interplay, and reasons for failure. The talk will also discuss an alternate reality where things work smoothly, and examine the differences to our current reality.
+
+
+**Presentation by**:
+Thomas Dullien (aka Halvar Flake): Reverse engineer at Google
+
+
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=PLJJY5UFtqY){:target="_blank"}
+
+
+air date: May 01, 2017
+
+`Tasos`
