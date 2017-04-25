@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "s01e10 - Why we are not building a defendable internet"
-date:   2017-25-04
+date:   2017-04-25
 ---
 
 Black Hat Asia 2017 Keynote: Why We are Not Building a Defendable Internet
