@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "s01e11 - The Squirrels are Winning"
+date:   2017-05-02
+---
+
+Schmoocon 2017: 35yrs Of Cyberwar, The Squirrels are Winning
+
+**Abstract**:
+
+**WASHINGTON, DC:** For years, the government and security experts have warned of the looming threat of "cyberwar" against critical infrastructure in the US and elsewhere. Predictions of cyber attacks wreaking havoc on power grids, financial systems, and other fundamental parts of nations' fabric have been foretold repeatedly over the past two decades, and each round has become more dire. The US Department of Energy declared in its Quadrennial Energy Review, just released this month, that the electrical grid in the US "faces imminent danger from a cyber attack."
+
+So far, however, the damage done by cyber attacks, both real (Stuxnet's destruction of Iranian uranium enrichment centrifuges and a few brief power outages alleged to have been caused by Russian hackers using BlackEnergy malware) and imagined or exaggerated (the Iranian "attack" on a broken flood control dam in Rye, New York), cannot begin to measure up to an even more significant cyber-threat—squirrels.
+
+In the presentation titled "35 Years of Cyberwar: The Squirrels Are Winning", SpaceRogue revealed the scale of the squirrelly threat to worldwide critical infrastructure by presenting data gathered by [CyberSquirrel 1](http://www.cybersquirrel1.com/){:target="_blank"}, a project that gathers information on animal-induced infrastructure outages collected from sources on the Internet.
+
+
+**Presentation by**:
+Cris "SpaceRogue" Thomas, former member of the L0pht Heavy Industries hacking collective and now a security researcher at Tenable
+
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=cZPv-wro-O8){:target="_blank"}
+
+
+air date: May 08, 2017
+
+`Tasos`
