@@ -1,0 +1,31 @@
+---
+
+layout: post
+title:  "s02e01 - Gateway to (s)hell"
+date:   2018-01-08
+
+---
+
+34C3 - SCADA - Gateway to (s)hell
+
+**Abstract**:
+
+**Hacking industrial control gateways:** Small gateways connect all kinds of fieldbusses to IP systems. This talk will look at the (in)security of those gateways, starting with simple vulnerabilities, and then deep diving into reverse-engineering the firmware and breaking the encryption of firmware upgrades. The found vulnerabilities will then be demonstrated live on a portable SCADA system.
+
+
+Companies often utilize small gateway devices to connect the different field-busses used in industrial control systems (such as Modbus, RS232 etc) to TCP/IP networks. Under the hood, these devices are mostly comprised of ARM-based mini computers, running either custom, tiny operating systems or uClinux/Linux. The talk will look at the security aspects of these gateways by examining known and unfixed vulnerabilities like unchangeable default credentials, protocols that do not support authentication, and reverse engineering and breaking the encryption of firmware upgrades of certain gateways.
+
+
+The talk will consist of a theoretical part, an introduction on how to reverse-engineer and find vulnerabilities in a firmware-blob of unknown format, and a practical part, showcasing a live ICS environment that utilizes gateways, from both the IP and the field-bus side, to pivot through an industrial control system environment: Demonstrating how to potentially pivot from a station in the field up to the SCADA headquarters, permanently modifying the firmware of the gateways on the way.
+
+
+**Presentation by**:
+Thomas Roth: Security researcher from Germany, focused on embedded systems and mobile security ([@stacksmashing](https://twitter.com/stacksmashing)).
+
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=Itgwb3rn7gE){:target="_blank"}
+
+
+air date: Jan 15, 2018
+
+`Tasos`
