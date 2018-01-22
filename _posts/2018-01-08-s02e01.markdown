@@ -1,31 +1,34 @@
 ---
 
 layout: post
-title:  "s02e01 - Gateway to (s)hell"
-date:   2018-01-08
+title:  "s02e01 - And Then the Script Kiddie Said, Let There be No Light Are Cyber Attacks on the Power Grid Limited to Nation State Actors?"
+date:   2018-01-22
 
 ---
 
-34C3 - SCADA - Gateway to (s)hell
+Black Hat US 2017 - And Then the Script Kiddie Said, Let There be No Light Are Cyber Attacks on the Power Grid Limited to Nation State Actors?
 
 **Abstract**:
 
-**Hacking industrial control gateways:** Small gateways connect all kinds of fieldbusses to IP systems. This talk will look at the (in)security of those gateways, starting with simple vulnerabilities, and then deep diving into reverse-engineering the firmware and breaking the encryption of firmware upgrades. The found vulnerabilities will then be demonstrated live on a portable SCADA system.
+Electricity is of paramount importance in our everyday lives. Our dependence on it is particularly evident during even brief power outages. You can think of power systems as the backbone of critical infrastructures. To date, cyber-attacks against power systems are considered to be extremely sophisticated and only within the reach of nation-states. However, through this presentation we will challenge this perception, and provide a structured methodology towards attacking a power system on a limited budget.
 
 
-Companies often utilize small gateway devices to connect the different field-busses used in industrial control systems (such as Modbus, RS232 etc) to TCP/IP networks. Under the hood, these devices are mostly comprised of ARM-based mini computers, running either custom, tiny operating systems or uClinux/Linux. The talk will look at the security aspects of these gateways by examining known and unfixed vulnerabilities like unchangeable default credentials, protocols that do not support authentication, and reverse engineering and breaking the encryption of firmware upgrades of certain gateways.
+When gathering information during the design phase of an attack, it is electrifying what you can find on the internet if you know what to look for. We will demonstrate information obtained from the web that can be leveraged to model and analyze a target power system, and how we can use this information to model power systems throughout the globe.
 
 
-The talk will consist of a theoretical part, an introduction on how to reverse-engineer and find vulnerabilities in a firmware-blob of unknown format, and a practical part, showcasing a live ICS environment that utilizes gateways, from both the IP and the field-bus side, to pivot through an industrial control system environment: Demonstrating how to potentially pivot from a station in the field up to the SCADA headquarters, permanently modifying the firmware of the gateways on the way.
+However, this talk is not just about theory. We will demonstrate a critical vulnerability we discovered in General Electric Multilin products widely deployed in power systems. Essentially, we completely broke the home brew encryption algorithm used by these protection and management devices to authenticate users and allow privileged operations. Knowledge of the passcode enables an attacker to completely pwn the device and disconnect sectors of the power grid at will, locking operators out to prolong the attack. We will also show a technique for remotely fingerprinting affected devices over the network.
+
+
+The talk includes a live demo showcasing exploitation of the vulnerability on a feeder management relay and how this vulnerability can have significant impact on a nation. We will discuss mitigation strategies, including the specific firmware update that addresses this vulnerability, and provide our thoughts on what the next steps in securing the power infrastructure should be. Tune in for more.
 
 
 **Presentation by**:
-Thomas Roth: Security researcher from Germany, focused on embedded systems and mobile security ([@stacksmashing](https://twitter.com/stacksmashing)).
+Mihalis Maniatakos, Tasos Keliris and Charalambos Konstantinou, NYU(AD)
 
 
-[YouTube link to presentation](https://www.youtube.com/watch?v=Itgwb3rn7gE){:target="_blank"}
+[YouTube link to presentation](https://www.youtube.com/watch?v=CeJvqrotVcA){:target="_blank"}
 
 
-air date: Jan 15, 2018
+air date: Jan 22, 2018
 
 `Tasos`
