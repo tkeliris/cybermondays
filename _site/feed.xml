@@ -1,22 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tkeliris.github.io/cybermondays/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="https://tkeliris.github.io/cybermondays/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tkeliris.github.io/cybermondays/" rel="alternate" type="text/html" /><updated>2018-01-08T13:52:27+04:00</updated><id>https://tkeliris.github.io/cybermondays//</id><title type="html">NYUAD Cyber Mondays</title><subtitle>The cyber security teams in NYU Abu Dhabi get together every Monday, watch security-related videos from top conferences, and discuss! 
-</subtitle><entry><title type="html">s02e01 - Gateway to (s)hell</title><link href="https://tkeliris.github.io/cybermondays/2018/01/08/s02e01.html" rel="alternate" type="text/html" title="s02e01 - Gateway to (s)hell" /><published>2018-01-08T00:00:00+04:00</published><updated>2018-01-08T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2018/01/08/s02e01</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2018/01/08/s02e01.html">&lt;p&gt;34C3 - SCADA - Gateway to (s)hell&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/cybermondays/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/cybermondays/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/cybermondays/" rel="alternate" type="text/html" /><updated>2018-02-04T19:35:05+04:00</updated><id>http://localhost:4000/cybermondays//</id><title type="html">NYUAD Cyber Mondays</title><subtitle>The cyber security teams in NYU Abu Dhabi get together every Monday, watch security-related videos from top conferences, and discuss! 
+</subtitle><entry><title type="html">s02e03 - Cache Side Channel Attack Exploitability and Countermeasures</title><link href="http://localhost:4000/cybermondays/2018/02/04/s02e03.html" rel="alternate" type="text/html" title="s02e03 - Cache Side Channel Attack Exploitability and Countermeasures" /><published>2018-02-04T00:00:00+04:00</published><updated>2018-02-04T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2018/02/04/s02e03</id><content type="html" xml:base="http://localhost:4000/cybermondays/2018/02/04/s02e03.html">&lt;p&gt;Black Hat Asia 2017 - Cache Side Channel Attack Exploitability and Countermeasures&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+Cache attacks have proven to be a big concern for security code designers because they are able to recover a wide range of information, ranging from cryptographic keys to user privacy-related information. These attacks take advantage of the fact that two processes are utilizing the same hardware resource, thus leveraging unexpected leakages that can be exploited by a malicious user. More specifically, Last Level Cache (LLC) attacks make use of the fact that the LLC is shared across cores, thus being able to steal information from users located in different cores. These attacks have been shown to be applicable in a wide variety of scenarios, going from IaaS clouds to web browsing exploitation with embedded javascript code.&lt;/p&gt;
+
+&lt;p&gt;This presentation describes three most dangerous cache attacks follow, i.e., Flush + Reload, Evict + Reload and Prime + Probe. Indeed their characteristics also determine their applicability; while Flush + Reload and Evict + Reload requires memory deduplication to succeed (i.e. shared memory between processes), Prime + Probe does not need special requirements to succeed. We evaluate the different examples of everyday usage software that can be targeted by this kind of attacks to violate our privacy. Further, this presentation expands on the scenarios in which each of the attacks succeed - including but not limited to, IaaS and PaaS co-located VMs/processes, web browsing javascript attacks, smartphone inter-application attacks, and trusted execution environment attacks.&lt;/p&gt;
+
+&lt;p&gt;Finally, this presentation explores the mitigation of such attacks: at the software level (writing secret independent execution flow), at the OS/hypervisor level (Utilizing LLC isolation through mechanisms like page sharing) and at the system level (e.g., locking certain portions of the LLC or behavior detection).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Presentation by&lt;/strong&gt;:
+Gorka Irazoqui: (Security Researcher, Worcester Polytechnic Institute), and Xiaofei Guo: (Security Researcher, Cisco Tetration Analytic)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yP7Ood-gP6g&quot; target=&quot;_blank&quot;&gt;YouTube link to presentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;air date: Feb 05, 2018&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Black Hat Asia 2017 - Cache Side Channel Attack Exploitability and Countermeasures</summary></entry><entry><title type="html">s02e02 - Breaking the x86 Instruction Set</title><link href="http://localhost:4000/cybermondays/2018/01/29/s02e02.html" rel="alternate" type="text/html" title="s02e02 - Breaking the x86 Instruction Set" /><published>2018-01-29T00:00:00+04:00</published><updated>2018-01-29T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2018/01/29/s02e02</id><content type="html" xml:base="http://localhost:4000/cybermondays/2018/01/29/s02e02.html">&lt;p&gt;Black Hat US 2017 - Breaking the x86 Instruction Set&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hacking industrial control gateways:&lt;/strong&gt; Small gateways connect all kinds of fieldbusses to IP systems. This talk will look at the (in)security of those gateways, starting with simple vulnerabilities, and then deep diving into reverse-engineering the firmware and breaking the encryption of firmware upgrades. The found vulnerabilities will then be demonstrated live on a portable SCADA system.&lt;/p&gt;
-
-&lt;p&gt;Companies often utilize small gateway devices to connect the different field-busses used in industrial control systems (such as Modbus, RS232 etc) to TCP/IP networks. Under the hood, these devices are mostly comprised of ARM-based mini computers, running either custom, tiny operating systems or uClinux/Linux. The talk will look at the security aspects of these gateways by examining known and unfixed vulnerabilities like unchangeable default credentials, protocols that do not support authentication, and reverse engineering and breaking the encryption of firmware upgrades of certain gateways.&lt;/p&gt;
-
-&lt;p&gt;The talk will consist of a theoretical part, an introduction on how to reverse-engineer and find vulnerabilities in a firmware-blob of unknown format, and a practical part, showcasing a live ICS environment that utilizes gateways, from both the IP and the field-bus side, to pivot through an industrial control system environment: Demonstrating how to potentially pivot from a station in the field up to the SCADA headquarters, permanently modifying the firmware of the gateways on the way.&lt;/p&gt;
+&lt;p&gt;A processor is not a trusted black box for running code; on the contrary, modern x86 chips are packed full of secret instructions and hardware bugs. In this talk, we’ll demonstrate how page fault analysis and some creative processor fuzzing can be used to exhaustively search the x86 instruction set and uncover the secrets buried in your chipset. We’ll disclose new x86 hardware glitches, previously unknown machine instructions, ubiquitous software bugs, and flaws in enterprise hypervisors. Best of all, we’ll release our sandsifter toolset, so that you can audit - and break - your own processor.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Presentation by&lt;/strong&gt;:
-Thomas Roth: Security researcher from Germany, focused on embedded systems and mobile security (&lt;a href=&quot;https://twitter.com/stacksmashing&quot;&gt;@stacksmashing&lt;/a&gt;).&lt;/p&gt;
+Christopher Domas (Battelle Memorial Institute)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Itgwb3rn7gE&quot; target=&quot;_blank&quot;&gt;YouTube link to presentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Christopher Domas is a cyber security researcher and embedded systems engineer, currently investigating low level processor exploitation. He is best known for releasing impractical solutions to non-existent problems, including the world’s first single instruction C compiler (M/o/Vfuscator), toolchains for generating images in program control flow graphs (REpsych), and Turing-machines in the vi text editor. His more relevant work includes the binary visualization tool ..cantor.dust.. and the memory sinkhole x86 privilege escalation exploit.&lt;/p&gt;
 
-&lt;p&gt;air date: Jan 15, 2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KrksBdWcZgQ&quot; target=&quot;_blank&quot;&gt;YouTube link to presentation&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">34C3 - SCADA - Gateway to (s)hell</summary></entry><entry><title type="html">s01e11 - The Squirrels are Winning</title><link href="https://tkeliris.github.io/cybermondays/2017/05/02/s01e11.html" rel="alternate" type="text/html" title="s01e11 - The Squirrels are Winning" /><published>2017-05-02T00:00:00+04:00</published><updated>2017-05-02T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/05/02/s01e11</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/05/02/s01e11.html">&lt;p&gt;Schmoocon 2017: 35yrs Of Cyberwar, The Squirrels are Winning&lt;/p&gt;
+&lt;p&gt;air date: Jan 29, 2018&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Black Hat US 2017 - Breaking the x86 Instruction Set</summary></entry><entry><title type="html">s02e01 - And Then the Script Kiddie Said, Let There be No Light Are Cyber Attacks on the Power Grid Limited to Nation State Actors?</title><link href="http://localhost:4000/cybermondays/2018/01/22/s02e01.html" rel="alternate" type="text/html" title="s02e01 - And Then the Script Kiddie Said, Let There be No Light Are Cyber Attacks on the Power Grid Limited to Nation State Actors?" /><published>2018-01-22T00:00:00+04:00</published><updated>2018-01-22T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2018/01/22/s02e01</id><content type="html" xml:base="http://localhost:4000/cybermondays/2018/01/22/s02e01.html">&lt;p&gt;Black Hat US 2017 - And Then the Script Kiddie Said, Let There be No Light Are Cyber Attacks on the Power Grid Limited to Nation State Actors?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Electricity is of paramount importance in our everyday lives. Our dependence on it is particularly evident during even brief power outages. You can think of power systems as the backbone of critical infrastructures. To date, cyber-attacks against power systems are considered to be extremely sophisticated and only within the reach of nation-states. However, through this presentation we will challenge this perception, and provide a structured methodology towards attacking a power system on a limited budget.&lt;/p&gt;
+
+&lt;p&gt;When gathering information during the design phase of an attack, it is electrifying what you can find on the internet if you know what to look for. We will demonstrate information obtained from the web that can be leveraged to model and analyze a target power system, and how we can use this information to model power systems throughout the globe.&lt;/p&gt;
+
+&lt;p&gt;However, this talk is not just about theory. We will demonstrate a critical vulnerability we discovered in General Electric Multilin products widely deployed in power systems. Essentially, we completely broke the home brew encryption algorithm used by these protection and management devices to authenticate users and allow privileged operations. Knowledge of the passcode enables an attacker to completely pwn the device and disconnect sectors of the power grid at will, locking operators out to prolong the attack. We will also show a technique for remotely fingerprinting affected devices over the network.&lt;/p&gt;
+
+&lt;p&gt;The talk includes a live demo showcasing exploitation of the vulnerability on a feeder management relay and how this vulnerability can have significant impact on a nation. We will discuss mitigation strategies, including the specific firmware update that addresses this vulnerability, and provide our thoughts on what the next steps in securing the power infrastructure should be. Tune in for more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Presentation by&lt;/strong&gt;:
+Mihalis Maniatakos, Tasos Keliris and Charalambos Konstantinou, NYU(AD)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CeJvqrotVcA&quot; target=&quot;_blank&quot;&gt;YouTube link to presentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;air date: Jan 22, 2018&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Black Hat US 2017 - And Then the Script Kiddie Said, Let There be No Light Are Cyber Attacks on the Power Grid Limited to Nation State Actors?</summary></entry><entry><title type="html">s01e11 - The Squirrels are Winning</title><link href="http://localhost:4000/cybermondays/2017/05/02/s01e11.html" rel="alternate" type="text/html" title="s01e11 - The Squirrels are Winning" /><published>2017-05-02T00:00:00+04:00</published><updated>2017-05-02T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/05/02/s01e11</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/05/02/s01e11.html">&lt;p&gt;Schmoocon 2017: 35yrs Of Cyberwar, The Squirrels are Winning&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -33,7 +66,7 @@ Cris “SpaceRogue” Thomas, former member of the L0pht Heavy Industries hackin
 
 &lt;p&gt;air date: May 08, 2017&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Schmoocon 2017: 35yrs Of Cyberwar, The Squirrels are Winning</summary></entry><entry><title type="html">s01e10 - Why we are not building a defendable internet</title><link href="https://tkeliris.github.io/cybermondays/2017/04/25/s01e10.html" rel="alternate" type="text/html" title="s01e10 - Why we are not building a defendable internet" /><published>2017-04-25T00:00:00+04:00</published><updated>2017-04-25T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/04/25/s01e10</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/04/25/s01e10.html">&lt;p&gt;Black Hat Asia 2017 Keynote: Why We are Not Building a Defendable Internet&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Schmoocon 2017: 35yrs Of Cyberwar, The Squirrels are Winning</summary></entry><entry><title type="html">s01e10 - Why we are not building a defendable internet</title><link href="http://localhost:4000/cybermondays/2017/04/25/s01e10.html" rel="alternate" type="text/html" title="s01e10 - Why we are not building a defendable internet" /><published>2017-04-25T00:00:00+04:00</published><updated>2017-04-25T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/04/25/s01e10</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/04/25/s01e10.html">&lt;p&gt;Black Hat Asia 2017 Keynote: Why We are Not Building a Defendable Internet&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -48,7 +81,7 @@ Thomas Dullien (aka Halvar Flake): Reverse engineer at Google&lt;/p&gt;
 
 &lt;p&gt;air date: May 01, 2017&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Black Hat Asia 2017 Keynote: Why We are Not Building a Defendable Internet</summary></entry><entry><title type="html">s01e09 - Repsych</title><link href="https://tkeliris.github.io/cybermondays/2017/04/19/s01e09.html" rel="alternate" type="text/html" title="s01e09 - Repsych" /><published>2017-04-19T00:00:00+04:00</published><updated>2017-04-19T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/04/19/s01e09</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/04/19/s01e09.html">&lt;p&gt;Repsych: Psychological Warfare in Reverse Engineering&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Black Hat Asia 2017 Keynote: Why We are Not Building a Defendable Internet</summary></entry><entry><title type="html">s01e09 - Repsych</title><link href="http://localhost:4000/cybermondays/2017/04/19/s01e09.html" rel="alternate" type="text/html" title="s01e09 - Repsych" /><published>2017-04-19T00:00:00+04:00</published><updated>2017-04-19T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/04/19/s01e09</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/04/19/s01e09.html">&lt;p&gt;Repsych: Psychological Warfare in Reverse Engineering&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -61,7 +94,7 @@ Chris Domas &lt;a href=&quot;https://twitter.com/xoreaxeaxeax&quot;&gt;@xoreaxea
 
 &lt;p&gt;air date: Apr 24, 2017&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Repsych: Psychological Warfare in Reverse Engineering</summary></entry><entry><title type="html">s01e08 - ARMageddon</title><link href="https://tkeliris.github.io/cybermondays/2017/04/10/s01e08.html" rel="alternate" type="text/html" title="s01e08 - ARMageddon" /><published>2017-04-10T00:00:00+04:00</published><updated>2017-04-10T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/04/10/s01e08</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/04/10/s01e08.html">&lt;p&gt;ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Repsych: Psychological Warfare in Reverse Engineering</summary></entry><entry><title type="html">s01e08 - ARMageddon</title><link href="http://localhost:4000/cybermondays/2017/04/10/s01e08.html" rel="alternate" type="text/html" title="s01e08 - ARMageddon" /><published>2017-04-10T00:00:00+04:00</published><updated>2017-04-10T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/04/10/s01e08</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/04/10/s01e08.html">&lt;p&gt;ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -76,7 +109,7 @@ Moritz Lipp &amp;amp; Clémentine Maurice&lt;/p&gt;
 
 &lt;p&gt;air date: Apr 10, 2017&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy</summary></entry><entry><title type="html">s01e07 - Breaking BHAD</title><link href="https://tkeliris.github.io/cybermondays/2017/03/14/s01e07.html" rel="alternate" type="text/html" title="s01e07 - Breaking BHAD" /><published>2017-03-14T00:00:00+04:00</published><updated>2017-03-14T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/03/14/s01e07</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/03/14/s01e07.html">&lt;p&gt;Breaking BHAD: Abusing Belkin Home Automation Devices&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">ARMageddon: How Your Smartphone CPU Breaks Software-Level Security and Privacy</summary></entry><entry><title type="html">s01e07 - Breaking BHAD</title><link href="http://localhost:4000/cybermondays/2017/03/14/s01e07.html" rel="alternate" type="text/html" title="s01e07 - Breaking BHAD" /><published>2017-03-14T00:00:00+04:00</published><updated>2017-03-14T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/03/14/s01e07</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/03/14/s01e07.html">&lt;p&gt;Breaking BHAD: Abusing Belkin Home Automation Devices&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -91,7 +124,7 @@ Scott Tenaglia and Joe Tanen, Invincea Labs&lt;/p&gt;
 
 &lt;p&gt;air date: Mar 27, 2017&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Breaking BHAD: Abusing Belkin Home Automation Devices</summary></entry><entry><title type="html">s01e06 - Cryptocurrencies and Beyond</title><link href="https://tkeliris.github.io/cybermondays/2017/03/07/s01e06.html" rel="alternate" type="text/html" title="s01e06 - Cryptocurrencies and Beyond" /><published>2017-03-07T00:00:00+04:00</published><updated>2017-03-07T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/03/07/s01e06</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/03/07/s01e06.html">&lt;p&gt;Cryptocurrencies and Beyond&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Breaking BHAD: Abusing Belkin Home Automation Devices</summary></entry><entry><title type="html">s01e06 - Cryptocurrencies and Beyond</title><link href="http://localhost:4000/cybermondays/2017/03/07/s01e06.html" rel="alternate" type="text/html" title="s01e06 - Cryptocurrencies and Beyond" /><published>2017-03-07T00:00:00+04:00</published><updated>2017-03-07T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/03/07/s01e06</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/03/07/s01e06.html">&lt;p&gt;Cryptocurrencies and Beyond&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -106,7 +139,7 @@ Scott Tenaglia and Joe Tanen, Invincea Labs&lt;/p&gt;
 
 &lt;p&gt;air date: Mar 13, 2017&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Cryptocurrencies and Beyond</summary></entry><entry><title type="html">s01e05 - The Internet of Scary Things</title><link href="https://tkeliris.github.io/cybermondays/2017/03/06/s01e05.html" rel="alternate" type="text/html" title="s01e05 - The Internet of Scary Things" /><published>2017-03-06T00:00:00+04:00</published><updated>2017-03-06T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/03/06/s01e05</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/03/06/s01e05.html">&lt;p&gt;The Internet of Scary Things - Tips to deploy and manage IoT safely&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Cryptocurrencies and Beyond</summary></entry><entry><title type="html">s01e05 - The Internet of Scary Things</title><link href="http://localhost:4000/cybermondays/2017/03/06/s01e05.html" rel="alternate" type="text/html" title="s01e05 - The Internet of Scary Things" /><published>2017-03-06T00:00:00+04:00</published><updated>2017-03-06T00:00:00+04:00</updated><id>http://localhost:4000/cybermondays/2017/03/06/s01e05</id><content type="html" xml:base="http://localhost:4000/cybermondays/2017/03/06/s01e05.html">&lt;p&gt;The Internet of Scary Things - Tips to deploy and manage IoT safely&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
 
@@ -140,38 +173,4 @@ I cover how to structure your network in order to reduce the attack surface pres
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;UPDATE: &lt;a href=&quot;https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/&quot; target=&quot;_blank&quot;&gt;Link to Mirai botnet attribution project&lt;/a&gt;&lt;/p&gt;</content><summary type="html">The Internet of Scary Things - Tips to deploy and manage IoT safely</summary></entry><entry><title type="html">s01e04 - Hacking Smart Safes</title><link href="https://tkeliris.github.io/cybermondays/2017/02/23/s01e04.html" rel="alternate" type="text/html" title="s01e04 - Hacking Smart Safes" /><published>2017-02-23T00:00:00+04:00</published><updated>2017-02-23T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/02/23/s01e04</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/02/23/s01e04.html">&lt;p&gt;Hacking Smart Safes - On the Brink of a Robbery&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Have you ever wanted to crack open a safe full of cash with nothing but a USB stick? Now you can!&lt;/p&gt;
-
-&lt;p&gt;The Brink’s CompuSafe cash management product line provides a “smart safe as a service” solution to major retailers and fast food franchises. They offer end-to-end management of your cash, transporting it safely from your storefront safe to your bank via armored car.&lt;/p&gt;
-
-&lt;p&gt;During this talk, we’ll uncover a major flaw in the Brink’s CompuSafe and demonstrate how to crack one open in seconds flat. All you need is a USB stick and a large bag to hold all of the cash. We’ll discuss how to remotely takeover the safe with full administrator privileges, and show how to enumerate a target list of other major Brink’s CompuSafe customers (exposed via configuration files stored right on the safe).&lt;/p&gt;
-
-&lt;p&gt;At any given time, up to $240,000 can be sitting in each of the 14,000 Brink’s CompuSafe smart safes currently deployed across the United States - potentially billions of dollars just waiting to be stolen.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Presentation by&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Dan “AltF4” Petro and Oscar Salazar, Bishop Fox Security&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=z8yCiYCNVQQ&quot; target=&quot;_blank&quot;&gt;YouTube link to presentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;air date: Feb 27, 2017&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Hacking Smart Safes - On the Brink of a Robbery</summary></entry><entry><title type="html">s01e03 - Drone Attacks on Industrial Wireless</title><link href="https://tkeliris.github.io/cybermondays/2017/02/14/s01e03.html" rel="alternate" type="text/html" title="s01e03 - Drone Attacks on Industrial Wireless" /><published>2017-02-14T00:00:00+04:00</published><updated>2017-02-14T00:00:00+04:00</updated><id>https://tkeliris.github.io/cybermondays/2017/02/14/s01e03</id><content type="html" xml:base="https://tkeliris.github.io/cybermondays/2017/02/14/s01e03.html">&lt;p&gt;Drone Attacks on Industrial Wireless: A New Front in Cyber Security&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: 
-With new Drone technologies appearing in the consumer space daily, Industrial Plant operators are being forced to rethink their most fundamental assumptions about Industrial Wireless and Cyber-Physical security. This presentation will cover Electronic Threats, Electronic Defensive measures, Recent Electronic jamming incidents, Latest Drone Threats and capabilities, defensive planning, and Electronic Attack Threats with Drones as delivery platform.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Presentation by&lt;/strong&gt;: 
-Jeff Melrose, Principal Technology Strategist for Cybersecurity at Yokogawa&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2URDrYNjKsY&quot; target=&quot;_blank&quot;&gt;YouTube link to presentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=u8qgehH3kEQ&quot; target=&quot;_blank&quot;&gt;Homework&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;air date: Feb 20, 2017&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tasos&lt;/code&gt;&lt;/p&gt;</content><summary type="html">Drone Attacks on Industrial Wireless: A New Front in Cyber Security</summary></entry></feed>
+&lt;p&gt;UPDATE: &lt;a href=&quot;https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/&quot; target=&quot;_blank&quot;&gt;Link to Mirai botnet attribution project&lt;/a&gt;&lt;/p&gt;</content><summary type="html">The Internet of Scary Things - Tips to deploy and manage IoT safely</summary></entry></feed>

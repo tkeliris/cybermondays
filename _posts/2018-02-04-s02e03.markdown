@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "s02e03 - Cache Side Channel Attack Exploitability and Countermeasures"
+title:  "s02e03 - Cache Side Channel Attacks"
 date:   2018-02-04
 
 ---
