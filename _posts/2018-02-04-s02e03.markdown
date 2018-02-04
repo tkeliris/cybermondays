@@ -1,0 +1,29 @@
+---
+
+layout: post
+title:  "s02e03 - Cache Side Channel Attack Exploitability and Countermeasures"
+date:   2018-02-04
+
+---
+
+Black Hat Asia 2017 - Cache Side Channel Attack Exploitability and Countermeasures
+
+**Abstract**:
+Cache attacks have proven to be a big concern for security code designers because they are able to recover a wide range of information, ranging from cryptographic keys to user privacy-related information. These attacks take advantage of the fact that two processes are utilizing the same hardware resource, thus leveraging unexpected leakages that can be exploited by a malicious user. More specifically, Last Level Cache (LLC) attacks make use of the fact that the LLC is shared across cores, thus being able to steal information from users located in different cores. These attacks have been shown to be applicable in a wide variety of scenarios, going from IaaS clouds to web browsing exploitation with embedded javascript code.
+
+
+This presentation describes three most dangerous cache attacks follow, i.e., Flush + Reload, Evict + Reload and Prime + Probe. Indeed their characteristics also determine their applicability; while Flush + Reload and Evict + Reload requires memory deduplication to succeed (i.e. shared memory between processes), Prime + Probe does not need special requirements to succeed. We evaluate the different examples of everyday usage software that can be targeted by this kind of attacks to violate our privacy. Further, this presentation expands on the scenarios in which each of the attacks succeed - including but not limited to, IaaS and PaaS co-located VMs/processes, web browsing javascript attacks, smartphone inter-application attacks, and trusted execution environment attacks.
+
+
+Finally, this presentation explores the mitigation of such attacks: at the software level (writing secret independent execution flow), at the OS/hypervisor level (Utilizing LLC isolation through mechanisms like page sharing) and at the system level (e.g., locking certain portions of the LLC or behavior detection).
+
+
+**Presentation by**:
+Gorka Irazoqui: (Security Researcher, Worcester Polytechnic Institute), and Xiaofei Guo: (Security Researcher, Cisco Tetration Analytic)
+
+[YouTube link to presentation](https://www.youtube.com/watch?v=yP7Ood-gP6g){:target="_blank"}
+
+
+air date: Feb 05, 2018
+
+`Tasos`
